@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 Start app
 ```
-uvicorn main:APP --host 0.0.0.0 --port 8000 --reload --log-level debug
+python run.py
 ```
 
 Run test
