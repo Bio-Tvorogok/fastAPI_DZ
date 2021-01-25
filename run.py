@@ -6,7 +6,7 @@ if __name__ == '__main__':
     config = configparser.ConfigParser()
     config.read('development.ini')
 
-if 'main:APP' in config.sections():
+    if 'main:APP' in config.sections():
         development_params = config['main:APP']
         uvicorn.run(
             'main:APP',
