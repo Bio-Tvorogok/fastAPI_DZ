@@ -8,9 +8,9 @@ Install requirements
 pip install -r requirements.txt
 ```
 
-uvicorn main:APP --host 0.0.0.0 --port 8001 --reload
+Start app
 ```
-uvicorn main:APP
+uvicorn main:APP --host 0.0.0.0 --port 8001 --reload
 ```
 
 Run test
